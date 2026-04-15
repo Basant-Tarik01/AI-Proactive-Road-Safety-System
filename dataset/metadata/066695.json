@@ -1,0 +1,761 @@
+{
+  "frame": 66695,
+  "step": 426,
+  "ego": {
+    "location": {
+      "x": -47.113,
+      "y": -58.134,
+      "z": 0.002
+    },
+    "rotation": {
+      "pitch": -0.077,
+      "yaw": -109.06,
+      "roll": 0.005
+    },
+    "velocity": {
+      "x": -0.723,
+      "y": -1.61
+    },
+    "speed_kmh": 6.35
+  },
+  "risk": {
+    "score": 0.5,
+    "level": "high",
+    "ttc_min_s": 3.39,
+    "min_dist_m": 3.7,
+    "top_threats": [
+      {
+        "actor_id": "p10",
+        "actor_type": "pedestrian",
+        "dist_m": 3.7,
+        "fwd_m": 2.02,
+        "lat_m": 3.1,
+        "ttc_s": 3.39,
+        "closing_ms": 1.09,
+        "speed_ms": 0.0,
+        "risk": 0.5
+      }
+    ]
+  },
+  "scenario": "normal",
+  "vehicles": [
+    {
+      "id": "v19",
+      "type": "vehicle",
+      "blueprint": "vehicle.nissan.patrol",
+      "loc": {
+        "x": -52.12,
+        "y": -46.349,
+        "z": 0.3
+      },
+      "yaw": 90.43,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v5",
+      "type": "vehicle",
+      "blueprint": "vehicle.nissan.patrol",
+      "loc": {
+        "x": -45.206,
+        "y": -34.964,
+        "z": 0.3
+      },
+      "yaw": -89.57,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v38",
+      "type": "vehicle",
+      "blueprint": "vehicle.mercedes.coupe",
+      "loc": {
+        "x": -58.599,
+        "y": -68.605,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v100",
+      "type": "vehicle",
+      "blueprint": "vehicle.volkswagen.t2_2021",
+      "loc": {
+        "x": -60.226,
+        "y": -68.622,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v102",
+      "type": "vehicle",
+      "blueprint": "vehicle.dodge.charger_police",
+      "loc": {
+        "x": -56.245,
+        "y": -68.581,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v103",
+      "type": "vehicle",
+      "blueprint": "vehicle.mercedes.coupe_2020",
+      "loc": {
+        "x": -41.754,
+        "y": -28.535,
+        "z": 0.3
+      },
+      "yaw": -89.57,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v105",
+      "type": "vehicle",
+      "blueprint": "vehicle.ford.mustang",
+      "loc": {
+        "x": -55.266,
+        "y": -68.57,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v123",
+      "type": "vehicle",
+      "blueprint": "vehicle.nissan.patrol",
+      "loc": {
+        "x": -53.623,
+        "y": -68.553,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v112",
+      "type": "vehicle",
+      "blueprint": "vehicle.volkswagen.t2",
+      "loc": {
+        "x": -41.054,
+        "y": -51.492,
+        "z": 0.3
+      },
+      "yaw": -74.04,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v116",
+      "type": "vehicle",
+      "blueprint": "vehicle.toyota.prius",
+      "loc": {
+        "x": -38.944,
+        "y": -52.008,
+        "z": 0.3
+      },
+      "yaw": -55.62,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v150",
+      "type": "vehicle",
+      "blueprint": "vehicle.volkswagen.t2",
+      "loc": {
+        "x": -43.686,
+        "y": -68.45,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v135",
+      "type": "vehicle",
+      "blueprint": "vehicle.audi.etron",
+      "loc": {
+        "x": -56.929,
+        "y": -65.088,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v199",
+      "type": "vehicle",
+      "blueprint": "vehicle.micro.microlino",
+      "loc": {
+        "x": -65.186,
+        "y": -68.674,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v113",
+      "type": "vehicle",
+      "blueprint": "vehicle.lincoln.mkz_2020",
+      "loc": {
+        "x": -41.737,
+        "y": -30.839,
+        "z": 0.3
+      },
+      "yaw": -89.57,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v134",
+      "type": "vehicle",
+      "blueprint": "vehicle.dodge.charger_police_2020",
+      "loc": {
+        "x": -60.874,
+        "y": -68.629,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v128",
+      "type": "vehicle",
+      "blueprint": "vehicle.volkswagen.t2_2021",
+      "loc": {
+        "x": -48.501,
+        "y": -49.356,
+        "z": 0.3
+      },
+      "yaw": 95.95,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v170",
+      "type": "vehicle",
+      "blueprint": "vehicle.micro.microlino",
+      "loc": {
+        "x": -41.651,
+        "y": -42.17,
+        "z": 0.3
+      },
+      "yaw": -89.57,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v132",
+      "type": "vehicle",
+      "blueprint": "vehicle.mercedes.coupe",
+      "loc": {
+        "x": -47.667,
+        "y": -68.491,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v136",
+      "type": "vehicle",
+      "blueprint": "vehicle.bmw.grandtourer",
+      "loc": {
+        "x": -45.169,
+        "y": -39.893,
+        "z": 0.3
+      },
+      "yaw": -89.57,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v137",
+      "type": "vehicle",
+      "blueprint": "vehicle.dodge.charger_2020",
+      "loc": {
+        "x": -41.639,
+        "y": -43.85,
+        "z": 0.3
+      },
+      "yaw": -89.57,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v139",
+      "type": "vehicle",
+      "blueprint": "vehicle.mini.cooper_s",
+      "loc": {
+        "x": -45.107,
+        "y": -50.455,
+        "z": 0.3
+      },
+      "yaw": -91.91,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v138",
+      "type": "vehicle",
+      "blueprint": "vehicle.dodge.charger_police_2020",
+      "loc": {
+        "x": -41.817,
+        "y": -20.244,
+        "z": 0.3
+      },
+      "yaw": -89.57,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v140",
+      "type": "vehicle",
+      "blueprint": "vehicle.ford.mustang",
+      "loc": {
+        "x": -41.71,
+        "y": -34.408,
+        "z": 0.3
+      },
+      "yaw": -89.57,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v251",
+      "type": "vehicle",
+      "blueprint": "vehicle.micro.microlino",
+      "loc": {
+        "x": -52.964,
+        "y": -65.046,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v154",
+      "type": "vehicle",
+      "blueprint": "vehicle.volkswagen.t2_2021",
+      "loc": {
+        "x": -41.671,
+        "y": -39.545,
+        "z": 0.3
+      },
+      "yaw": -89.57,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "v144",
+      "type": "vehicle",
+      "blueprint": "vehicle.bmw.grandtourer",
+      "loc": {
+        "x": -46.324,
+        "y": -68.477,
+        "z": 0.3
+      },
+      "yaw": -179.4,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    }
+  ],
+  "pedestrians": [
+    {
+      "id": "p0",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0051",
+      "loc": {
+        "x": -29.978,
+        "y": 2.124,
+        "z": 1.089
+      },
+      "yaw": 5.29,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p1",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0003",
+      "loc": {
+        "x": -60.767,
+        "y": -25.338,
+        "z": 1.089
+      },
+      "yaw": 84.84,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p10",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0004",
+      "loc": {
+        "x": -50.706,
+        "y": -59.033,
+        "z": 0.302
+      },
+      "yaw": -19.22,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p11",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0051",
+      "loc": {
+        "x": -34.002,
+        "y": -0.77,
+        "z": 1.089
+      },
+      "yaw": 78.97,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p12",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0022",
+      "loc": {
+        "x": -34.74,
+        "y": -33.592,
+        "z": 1.089
+      },
+      "yaw": -113.05,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p13",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0018",
+      "loc": {
+        "x": -33.502,
+        "y": -46.684,
+        "z": 1.089
+      },
+      "yaw": -66.54,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p14",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0017",
+      "loc": {
+        "x": -67.121,
+        "y": 4.173,
+        "z": 1.089
+      },
+      "yaw": -6.97,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p15",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0008",
+      "loc": {
+        "x": -60.637,
+        "y": -7.886,
+        "z": 1.089
+      },
+      "yaw": 92.03,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p16",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0051",
+      "loc": {
+        "x": -33.399,
+        "y": -42.115,
+        "z": 1.089
+      },
+      "yaw": -101.5,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p17",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0029",
+      "loc": {
+        "x": -35.285,
+        "y": -41.505,
+        "z": 1.089
+      },
+      "yaw": 83.85,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p18",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0009",
+      "loc": {
+        "x": -61.272,
+        "y": -11.033,
+        "z": 0.709
+      },
+      "yaw": 98.16,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p19",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0025",
+      "loc": {
+        "x": -58.922,
+        "y": -45.652,
+        "z": 1.089
+      },
+      "yaw": -173.96,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p2",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0038",
+      "loc": {
+        "x": -57.783,
+        "y": -45.166,
+        "z": 1.089
+      },
+      "yaw": -69.07,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p20",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0036",
+      "loc": {
+        "x": -51.739,
+        "y": -48.3,
+        "z": 0.987
+      },
+      "yaw": -55.83,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p21",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0015",
+      "loc": {
+        "x": -30.925,
+        "y": -63.849,
+        "z": 0.939
+      },
+      "yaw": 130.46,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p22",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0016",
+      "loc": {
+        "x": -50.92,
+        "y": -48.582,
+        "z": 0.953
+      },
+      "yaw": -107.02,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    },
+    {
+      "id": "p24",
+      "type": "pedestrian",
+      "blueprint": "walker.pedestrian.0038",
+      "loc": {
+        "x": -34.795,
+        "y": -31.286,
+        "z": 1.089
+      },
+      "yaw": 82.1,
+      "velocity": {
+        "x": 0.0,
+        "y": 0.0
+      },
+      "speed_ms": 0.0
+    }
+  ],
+  "total_actors": 43,
+  "sensors": {
+    "rgb": {
+      "file": "rgb/066695.png",
+      "width": 800,
+      "height": 600,
+      "fov": 90
+    },
+    "depth": {
+      "file": "depth/066695.png",
+      "unit": "mm_uint16",
+      "fx": 400.0,
+      "fy": 300.0,
+      "cx": 400,
+      "cy": 300
+    },
+    "lidar": {
+      "file": "lidar/066695.npy",
+      "columns": [
+        "x",
+        "y",
+        "z",
+        "intensity"
+      ],
+      "num_points": 29594
+    }
+  },
+  "yolo_detections": []
+}

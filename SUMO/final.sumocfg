@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+  <input>
+    <net-file value="final_with_crossings.net.xml"/>
+    <route-files value="veh_routes.rou.xml,ped_routes.rou.xml"/>
+  </input>
+    <time>
+        <!-- Start at time 0 -->
+        <begin value="0"/>
+        <!-- Run for 3600 seconds (1 hour) -->
+        <end value="3600"/>
+        <!-- Simulation step length -->
+        <step-length value="1.0"/>
+    </time>
+
+    <report>
+        <!-- Verbose logging helps debug -->
+        <verbose value="true"/>
+        <no-step-log value="false"/>
+    </report>
+</configuration>
