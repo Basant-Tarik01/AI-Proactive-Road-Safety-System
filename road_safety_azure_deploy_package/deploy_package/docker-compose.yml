@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+
+  # ── FastAPI inference API ──────────────────────────────────────────────────
+  perception-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: road_safety_api
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/workspace
+    restart: unless-stopped
+
+  # ── Streamlit dashboard ────────────────────────────────────────────────────
+  streamlit-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    container_name: road_safety_dashboard
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/workspace
+    depends_on:
+      - perception-api
+    restart: unless-stopped
