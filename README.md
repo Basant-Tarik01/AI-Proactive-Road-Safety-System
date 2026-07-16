@@ -297,11 +297,11 @@ The dataset was generated entirely through the CARLA/SUMO co-simulation pipeline
 ## Screenshots
 
 
-### CARLA / SUMO Simulation
-<img width="588" height="451" alt="image" src="https://github.com/user-attachments/assets/efa5cb9a-1f4e-4d08-a4c3-980ab7bbed6b" />
-
 ### Streamlit Dashboard
 <img width="1264" height="638" alt="image" src="https://github.com/user-attachments/assets/e79613ea-e7ac-46de-a22d-c536e79117ad" />
+
+<img width="873" height="762" alt="Screenshot 2026-07-11 103911" src="https://github.com/user-attachments/assets/eec86ee8-9032-4ac6-a69e-ced89a2b4720" />
+
 
 ---
 
