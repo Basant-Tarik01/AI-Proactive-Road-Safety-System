@@ -120,7 +120,7 @@ The core generation script connects to a running CARLA server and a SUMO instanc
 
 The generated multimodal dataset (frames, depth, LiDAR, and metadata) was uploaded to Kaggle so it could be pulled programmatically into the training notebook via the Kaggle CLI, keeping the pipeline reproducible and shareable without manual uploads.
 
-📦 **Kaggle Dataset:** [Add link here]
+📦 **Kaggle Dataset:** https://www.kaggle.com/datasets/mennaset/road-safety-simulation-data
 
 ---
 
@@ -216,7 +216,7 @@ Two separate images keep the backend and frontend independently scalable:
 
 A multi-page Streamlit dashboard renders the live risk feed with a cyberpunk/HUD-style visual theme, covering object-detection analytics, driver behavior, accident-prevention simulation, scenario testing, historical analytics, AI performance metrics, and reporting.
 
-🖥️ **Live Dashboard:** [(https://streamlit-dashboard.bluebay-ca82a8fb.eastus.azurecontainerapps.io/)]
+🖥️ **Live Dashboard:** https://streamlit-dashboard.bluebay-ca82a8fb.eastus.azurecontainerapps.io/
 
 ---
 
@@ -284,19 +284,17 @@ AI-Proactive-Road-Safety-System/
 
 The dataset was generated entirely through the CARLA/SUMO co-simulation pipeline described in [Phase 1](#phase-1--simulation--dataset-generation) — synchronized RGB, depth, and LiDAR captures, each paired with a full risk-metadata JSON (risk score, risk level, scenario label, and every actor's position/speed). It was uploaded to Kaggle for reproducible, shareable access.
 
-📦 **Kaggle Dataset:** (https://www.kaggle.com/datasets/mennaset/road-safety-simulation-data)
+📦 **Kaggle Dataset:** https://www.kaggle.com/datasets/mennaset/road-safety-simulation-data
 
 ---
 
 ## Live Demo
 
-🖥️ **Streamlit Dashboard:** (https://streamlit-dashboard.bluebay-ca82a8fb.eastus.azurecontainerapps.io/)
+🖥️ **Streamlit Dashboard:** https://streamlit-dashboard.bluebay-ca82a8fb.eastus.azurecontainerapps.io/
 
 ---
 
 ## Screenshots
-
-<img width="1263" height="642" alt="image" src="https://github.com/user-attachments/assets/339c3986-9a93-4e8c-a069-595b3165af45" />
 
 
 ### CARLA / SUMO Simulation
